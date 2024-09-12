@@ -34,3 +34,12 @@ activity:
         description: "The new employee has completely watched the Data protection VIdeo."
         test: "activity/onboarding-training/data-protection-and-privacy-lms-video.py"
         evidence: "evidence/lms-training/lms-training-video-data-protection.xml"
+  - name: pr-review
+    short: "PR review check"
+    description: "This activity verifies that the new employee two people checked his PR."
+    action:
+      - name: pr-review
+        short: "asdf"
+        description: "asdf."
+        test: "activity/peer-review/atleast-two-reviewers.py"
+        evidence: "evidence/peer-review/pr-review.json"
