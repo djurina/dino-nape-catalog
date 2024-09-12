@@ -42,4 +42,4 @@ activity:
         short: "asdf"
         description: "asdf."
         test: "activity/pr-review/atleast-two-reviewers.py"
-        evidence: "evidence/peer-review/pr-review.json"
+        evidence: "evidence/pr-review/pr-review.json"
